@@ -58,7 +58,6 @@ public class App {
         System.out.println("I have my number. What's your guess? ");
         int guess = in.nextInt();
         guess(guess, rand, count);
-
     }
     public static void guess(int guess, int rand, int count){
         Scanner in = new Scanner(System.in);
